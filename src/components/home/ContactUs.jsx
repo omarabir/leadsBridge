@@ -42,7 +42,7 @@ const ContactUs = () => {
         </p>
 
         <div className="border border-gray-200 rounded-2xl overflow-hidden shadow-sm flex flex-col lg:flex-row">
-          <div className="lg:w-2/5 p-8 flex flex-col gap-5 border-b lg:border-b-0 lg:border-r border-gray-200">
+          <div className="lg:w-2/5 p-5 sm:p-8 flex flex-col gap-5 border-b lg:border-b-0 lg:border-r border-gray-200">
             <p className="text-gray-500 text-sm font-medium">Naim</p>
             <h3 className="text-[#1a1a2e] text-2xl font-extrabold leading-snug">
               Book Your Strategy Session: Accelerate Your Growth!
@@ -84,22 +84,22 @@ const ContactUs = () => {
             </div>
           </div>
 
-          <div className="lg:w-3/5 p-8 relative">
-            <div className="absolute top-7 -right-12 w-48 bg-[#5d6064] text-center transform rotate-45 py-1.5 shadow-sm">
+          <div className="lg:w-3/5 p-5 md:p-8 relative overflow-hidden">
+            <div className="absolute top-6 -right-14 sm:top-7 sm:-right-12 w-48 bg-[#5d6064] text-center transform rotate-45 py-1 sm:py-1.5 shadow-sm">
               <div className="text-[8px] font-bold tracking-widest text-[#d8dadd] uppercase leading-none mb-0.5">
                 Powered by
               </div>
-              <div className="text-[15px] font-bold text-white leading-none">
+              <div className="text-[13px] sm:text-[15px] font-bold text-white leading-none">
                 Calendly
               </div>
             </div>
 
-            <h4 className="text-[#1a1a2e] font-bold text-lg mb-6">
+            <h4 className="text-[#1a1a2e] font-bold text-lg mb-6 mt-1 sm:mt-0">
               Select a Date &amp; Time
             </h4>
 
-            <div className="flex items-center justify-between mb-5">
-              <button className="w-8 h-8 flex items-center justify-center rounded-full hover:bg-[#eef5ff] text-gray-500">
+            <div className="flex items-center justify-center gap-8 mb-5">
+              <button className="w-8 h-8 flex items-center justify-center rounded-full hover:bg-[#eef5ff] hover:text-blue-600 text-gray-500">
                 <svg
                   className="w-4 h-4"
                   fill="none"
@@ -114,10 +114,10 @@ const ContactUs = () => {
                   />
                 </svg>
               </button>
-              <span className="font-semibold text-[#1a1a2e] text-base">
+              <span className=" text-[#1f1f33] text-base">
                 March 2025
               </span>
-              <button className="w-8 h-8 flex items-center justify-center rounded-full bg-[#eef5ff] text-blue-600">
+              <button className="w-8 h-8 flex items-center justify-center rounded-full text-gray-500 hover:bg-[#eef5ff] hover:text-blue-600">
                 <svg
                   className="w-4 h-4"
                   fill="none"
