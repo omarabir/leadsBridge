@@ -5,6 +5,7 @@ import OurApproach from "@/components/home/OurApproach";
 import Services from "@/components/home/Services";
 import SocialProof from "@/components/home/SocialProof";
 import WhyChoose from "@/components/home/WhyChoose";
+import YourNeeds from "@/components/home/YourNeeds";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <Services />
       <OurApproach />
       <HarshReality />
+      <YourNeeds />
     </div>
   );
 }

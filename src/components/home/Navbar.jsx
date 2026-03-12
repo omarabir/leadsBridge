@@ -23,7 +23,7 @@ export default function Navbar() {
         <div className="hidden md:flex items-center gap-6 lg:gap-8 font-semibold text-gray-700">
           <Link
             href="#"
-            className="hover:text-primary transition-colors text-primary"
+            className="hover:text-primary transition-colors "
           >
             Services
           </Link>
