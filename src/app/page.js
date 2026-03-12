@@ -1,3 +1,4 @@
+import HarshReality from "@/components/home/HelpAmazon";
 import Hero from "@/components/home/Hero";
 import Navbar from "@/components/home/Navbar";
 import OurApproach from "@/components/home/OurApproach";
@@ -14,6 +15,7 @@ export default function Home() {
       <WhyChoose />
       <Services />
       <OurApproach />
+      <HarshReality />
     </div>
   );
 }
