@@ -55,9 +55,9 @@ const SocialProof = () => {
               className="h-6 sm:h-8 object-contain"
             />
           </div>
-          <p className="text-sm font-bold">
-            <span className="text-black">Our</span>
-            <span className="text-primary font-medium">Story</span>
+          <p className="text-sm ">
+            Our
+            <span className="text-primary"> Story</span>
           </p>
         </div>
 
