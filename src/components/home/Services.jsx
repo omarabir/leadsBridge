@@ -53,30 +53,29 @@ const Services = () => {
           </span>
         </div>
 
-        {/* Heading */}
+
         <h2 className="text-4xl sm:text-5xl font-extrabold text-center text-black leading-tight mb-4">
           Scale Smarter, <span className="text-primary">Sell Faster</span>
         </h2>
 
-        {/* Subtitle */}
+       
         <p className="text-center text-gray-500 text-base mb-14">
           We handle everything Amazon so you can focus on growing.
         </p>
 
-        {/* Cards grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
           {services.map((service, i) => (
             <div
               key={i}
               className="border border-gray-200 rounded-2xl p-8 flex flex-col gap-6 shadow-sm hover:shadow-md transition-shadow"
             >
-              {/* Title + image row */}
+            
               <div className="flex items-start justify-between gap-4">
                 <div className="flex flex-col gap-3">
                   <h3 className="text-primary font-bold text-lg leading-snug">
                     {service.title}
                   </h3>
-                  {/* Orange vertical bar */}
+         
                   <div className="w-0.5 h-8 bg-primary rounded-full" />
                 </div>
                 <img
@@ -86,14 +85,14 @@ const Services = () => {
                 />
               </div>
 
-              {/* Bullet items */}
+        
               <ul className="flex flex-col gap-3">
                 {service.items.map((item, j) => (
                   <li
                     key={j}
                     className="flex items-start gap-3 text-gray-700 text-sm sm:text-base"
                   >
-                    {/* Checkmark icon */}
+               
                     <svg
                       className="w-5 h-5 text-primary flex-shrink-0 mt-0.5"
                       viewBox="0 0 24 24"
