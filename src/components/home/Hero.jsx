@@ -2,7 +2,7 @@ import Button from "../button/Button";
 
 export default function Hero() {
   return (
-    <section className="relative w-full max-w-7xl mx-auto px-4 sm:px-6 py-12 md:py-20 lg:py-28 flex flex-col items-center justify-center text-center">
+    <div className="relative w-full max-w-7xl mx-auto px-4 sm:px-6 py-12 md:py-20 lg:py-28 flex flex-col items-center justify-center text-center">
     
       <div className="flex items-center gap-2 pr-3 sm:pr-4 py-1 mb-6 md:mb-8 mx-auto w-max  ">
         <div className="flex items-center justify-center">
@@ -42,6 +42,6 @@ export default function Hero() {
         alt="Review Container"
         className="hidden lg:block absolute right-2 xl:right-8 top-36 xl:top-44 w-48 xl:w-72 transform rotate-6 pointer-events-none"
       />
-    </section>
+    </div>
   );
 }

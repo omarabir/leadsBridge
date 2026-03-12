@@ -1,13 +1,15 @@
 import Hero from "@/components/home/Hero";
 import Navbar from "@/components/home/Navbar";
 import SocialProof from "@/components/home/SocialProof";
+import WhyChoose from "@/components/home/WhyChoose";
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-gradient-to-b from-[#ffffff]  to-[#fffbf2] relative overflow-hidden font-sans">
+    <div className="min-h-screen bg-gradient-to-b from-[#ffffff]  to-[#FFE7BC] relative overflow-hidden font-sans">
       <Navbar />
       <Hero />
       <SocialProof />
+      <WhyChoose />
     </div>
   );
 }
