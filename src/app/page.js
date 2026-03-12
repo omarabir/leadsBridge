@@ -1,3 +1,4 @@
+import ContactUs from "@/components/home/ContactUs";
 import HarshReality from "@/components/home/HelpAmazon";
 import Hero from "@/components/home/Hero";
 import Navbar from "@/components/home/Navbar";
@@ -18,6 +19,7 @@ export default function Home() {
       <OurApproach />
       <HarshReality />
       <YourNeeds />
+      <ContactUs />
     </div>
   );
 }
